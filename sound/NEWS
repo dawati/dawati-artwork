@@ -1,0 +1,15 @@
+==============
+Version 0.2
+==============
+
+ * add new dialog ok sound (William Jon McCann)
+ * add new dialog cancel sound (William Jon McCann)
+ * add new bell sound (William Jon McCann)
+ * new complete burn sound (William Jon McCann)
+ * add camera shutter sound (William Jon McCann)
+ * update incoming call sound (William Jon McCann)
+ * new trash empty sound (William Jon McCann)
+ * add new login/logout sounds from Mike Langlie (William Jon McCann)
+ * add new sounds for power management apps (William Jon McCann)
+ * add autotools gunk (Jon McCann)
+ * initial checkin (Jon McCann)
