@@ -1,7 +1,7 @@
 
 AC_PREREQ([2.60])
 AC_INIT([moblin-sound-theme],
-        [0.2],
+        [0.3],
         [http://www.moblin.org])
 
 AC_CONFIG_SRCDIR([index.theme.in])
