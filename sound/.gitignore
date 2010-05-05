@@ -5,6 +5,7 @@
 *.sw?
 .deps
 .libs
+ChangeLog
 Makefile.in
 Makefile
 aclocal.m4
