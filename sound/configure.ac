@@ -1,7 +1,7 @@
 AC_PREREQ([2.60])
-AC_INIT([moblin-sound-theme],
+AC_INIT([meego-sound-theme],
         [0.5],
-        [http://www.moblin.org])
+        [http://www.meego.com])
 
 AC_CONFIG_SRCDIR([index.theme])
 
