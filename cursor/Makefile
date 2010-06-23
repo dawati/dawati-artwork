@@ -1,4 +1,4 @@
-PACKAGE := moblin-cursor-theme
+PACKAGE := meego-cursor-theme
 VERSION := $(shell git describe --abbrev=0)
 
 all:
