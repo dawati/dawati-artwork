@@ -1,6 +1,6 @@
 NULL =
 
-sounddir = $(datadir)/sounds/meego/stereo
+sounddir = $(datadir)/sounds/dawati/stereo
 
 single_beep =				\
 	audio-volume-change.wav		\

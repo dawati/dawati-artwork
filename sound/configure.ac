@@ -1,7 +1,7 @@
 AC_PREREQ([2.60])
-AC_INIT([meego-sound-theme],
+AC_INIT([dawati-sound-theme],
         [0.5],
-        [http://www.meego.com])
+        [http://www.dawati.com])
 
 AC_CONFIG_SRCDIR([index.theme])
 
