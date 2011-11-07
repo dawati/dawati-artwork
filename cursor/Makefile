@@ -1,4 +1,4 @@
-PACKAGE := meego-cursor-theme
+PACKAGE := dawati-cursor-theme
 VERSION := $(shell git describe --abbrev=0)
 
 all:
