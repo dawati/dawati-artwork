@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+	<wallpaper deleted="false">
+		<!-- TRANSLATORS: This is the name of this background picture: http://git.gnome.org/browse/gnome-backgrounds/plain/backgrounds/BlueMarbleWest.jpg -
+		You might want to translate it into the equivalent words of your language  -->
+		<_name>Wood</_name>
+		<filename>/usr/share/backgrounds/gnome/wood.png</filename>
+		<options>zoom</options>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<!-- TRANSLATORS: This is the name of this background picture: http://git.gnome.org/browse/gnome-backgrounds/plain/backgrounds/BlueMarbleWest.jpg -
+		You might want to translate it into the equivalent words of your language  -->
+		<_name>Paper</_name>
+		<filename>/usr/share/backgrounds/gnome/paper.png</filename>
+		<options>zoom</options>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<!-- TRANSLATORS: This is the name of this background picture: http://git.gnome.org/browse/gnome-backgrounds/plain/backgrounds/BlueMarbleWest.jpg -
+		You might want to translate it into the equivalent words of your language  -->
+		<_name>Linus</_name>
+		<filename>/usr/share/backgrounds/gnome/linus.jpg</filename>
+		<options>zoom</options>
+	</wallpaper>
+</wallpapers>
