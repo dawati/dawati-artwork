@@ -1,4 +1,4 @@
-SUBDIRS = cursor sound
+SUBDIRS = cursor sound ui
 
 MAINTAINERCLEANFILES =		\
 	*~			\
@@ -17,3 +17,6 @@ MAINTAINERCLEANFILES =		\
 	config.h.*		\
 	aclocal.m4		\
 	$(NULL)
+
+all-local-hook:
+	touch plop

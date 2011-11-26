@@ -1,0 +1,8 @@
+[X-GNOME-Metatheme]
+Name=Netbook
+Type=X-GNOME-Metatheme
+Comment=Theme for Netbooks
+Encoding=UTF-8
+GtkTheme=Netbook
+MetacityTheme=Netbook
+IconTheme=moblin

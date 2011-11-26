@@ -12,8 +12,9 @@ AC_SUBST(VERSION)
 
 AC_CONFIG_FILES([
   Makefile
+  cursor/Makefile
   sound/Makefile
   sound/stereo/Makefile
-  cursor/Makefile
+  ui/Makefile
 ])
 AC_OUTPUT
