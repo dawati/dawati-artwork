@@ -38,7 +38,7 @@ double_beep =				\
 	$(NULL)
 
 desktop_login = audio-test-signal.ogg
-	
+
 sound_DATA =                            \
 	desktop-login.ogg		\
 	double-very-low.wav		\
@@ -52,15 +52,15 @@ EXTRA_DIST =            \
 install-data-hook:
 	cd $(DESTDIR)$(sounddir) &&			\
 	for i in $(single_beep); do			\
-		$(LN_S) single-very-low.wav $$i;	\
+		$(LN_S) -f single-very-low.wav $$i;	\
 	done
 	cd $(DESTDIR)$(sounddir) &&			\
 	for i in $(double_beep); do			\
-		$(LN_S) double-very-low.wav $$i;	\
+		$(LN_S) -f double-very-low.wav $$i;	\
 	done
 	cd $(DESTDIR)$(sounddir) &&			\
 	for i in $(desktop_login); do			\
-		$(LN_S) desktop-login.ogg $$i;		\
+		$(LN_S) -f desktop-login.ogg $$i;	\
 	done
 
 DISTCLEANFILES = \
