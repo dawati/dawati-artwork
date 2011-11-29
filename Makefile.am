@@ -1,4 +1,4 @@
-SUBDIRS = cursor sound ui
+SUBDIRS = backgrounds cursor sound ui
 
 MAINTAINERCLEANFILES =		\
 	*~			\

@@ -12,6 +12,7 @@ AC_SUBST(VERSION)
 
 AC_CONFIG_FILES([
   Makefile
+  backgrounds/Makefile
   cursor/Makefile
   sound/Makefile
   sound/stereo/Makefile
