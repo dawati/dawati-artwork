@@ -13,8 +13,10 @@ dist_background_DATA = \
 	$(NULL)
 
 EXTRA_DIST = \
-	dawati-backgrounds.xml \
+	dawati-backgrounds.xml.in \
 	$(NULL)
+
+CLEANFILES = $(backgrounddesc_DATA)
 
 %.xml: %.xml.in
 	$(AM_V_GEN)sed -e "s|\@datadir\@|$(datadir)|" $< > $@
