@@ -1,4 +1,4 @@
-# Netbook Widget theme
+# Dawati Widget theme
 
 gtk_button_images = 0
 gtk_menu_images = 0
@@ -21,7 +21,7 @@ style "default"
   GtkHTML::vlink_color = @green
 
 	# Spell check underline color
-  GtkHTML::spell_error_color = @green  
+  GtkHTML::spell_error_color = @green
 
   GtkWidget::focus-padding = 0
   GtkWidget::focus-line-width = 0
@@ -61,7 +61,7 @@ style "default"
   base [ACTIVE] = @selected_bg_color
   base [INSENSITIVE] = "#f1f1f1"
   GtkWidget::focus-line-width = 1
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 3
     border [NORMAL] = @grey
@@ -103,35 +103,35 @@ style "button"
             function = BOX
 				state = NORMAL
             file = "Assets/button.png"
-            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom}
         }
 
         image {
             function = BOX
 				state = PRELIGHT
             file = "Assets/button-hover.png"
-            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom}
         }
 
         image {
             function = BOX
 				state = INSENSITIVE
             file = "Assets/button-disabled.png"
-            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom}
         }
 
         image {
             function = BOX
 				state = SELECTED
             file = "Assets/button-active.png"
-            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom}
         }
 
         image {
             function = BOX
 				state = ACTIVE
             file = "Assets/button-active.png"
-            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 11, 13 } # = {Left, Right, Top, Bottom}
         }
 
     }
@@ -151,7 +151,7 @@ style "textarea"
   fg [PRELIGHT] = @fg_color
 
 
-    engine "meego-netbook" {
+    engine "dawati" {
  		radius = 3
  		border [NORMAL] = @grey
     }
@@ -176,47 +176,47 @@ style "expander"
 	    state = NORMAL
             file = "Assets/plusbox-plus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = EXPANDED
 	    state = NORMAL
             file = "Assets/plusbox-minus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = SEMI_COLLAPSED
             file = "Assets/plusbox-plus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = SEMI_EXPANDED
             file = "Assets/plusbox-minus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = COLLAPSED
 	    state = ACTIVE
             file = "Assets/plusbox-plus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = EXPANDED
             state = ACTIVE
             file = "Assets/plusbox-minus.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = EXPANDED
             state = PRELIGHT
             file = "Assets/plusbox-minus-hover.png"
         }
-        
+
         image {
             function = EXPANDER
             expander_style = COLLAPSED
@@ -252,7 +252,7 @@ style "lightswitch"
 
             file = "Assets/toggle-handle.png"
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-handle"
@@ -260,7 +260,7 @@ style "lightswitch"
             file = "Assets/toggle-handle-focus.png"
 
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-handle"
@@ -268,7 +268,7 @@ style "lightswitch"
             file = "Assets/toggle-handle-hover.png"
 
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-handle"
@@ -276,7 +276,7 @@ style "lightswitch"
             file = "Assets/toggle-handle-disabled.png"
 
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-trough"
@@ -284,7 +284,7 @@ style "lightswitch"
             file = "Assets/toggle-background.png"
 
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-trough"
@@ -292,7 +292,7 @@ style "lightswitch"
             file = "Assets/toggle-background-active.png"
 
         }
-        
+
         image {
             function = BOX
             detail = "light-switch-trough"
@@ -325,7 +325,7 @@ style "sliderh"
         orientation	= HORIZONTAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -336,7 +336,7 @@ style "sliderh"
         orientation	= HORIZONTAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -360,7 +360,7 @@ style "sliderh"
         orientation	= HORIZONTAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -395,7 +395,7 @@ style "sliderv"
         orientation	= VERTICAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -406,7 +406,7 @@ style "sliderv"
         orientation	= VERTICAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -430,7 +430,7 @@ style "sliderv"
         orientation	= VERTICAL
       }
 
-    image 
+    image
       {
 	function	= SLIDER
 	recolorable	= FALSE
@@ -519,7 +519,7 @@ style "progressbar"
       border			= { 5, 5, 5, 5 }
       stretch			= TRUE
       orientation		= HORIZONTAL
-    } 
+    }
 
     image {
 
@@ -541,7 +541,7 @@ style "progressbar"
       border			= { 5, 5, 5, 5 }
       stretch			= TRUE
       orientation		= VERTICAL
-    } 
+    }
 	}
 }
 widget_class "*ProgressBar*" style "progressbar"
@@ -589,7 +589,7 @@ style "scrollbar" {
 				state = NORMAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-vhandle.png"
-            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
 
@@ -599,17 +599,17 @@ style "scrollbar" {
             orientation = VERTICAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-vhandle-hover.png"
-            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
-        
+
         image {
             function = SLIDER
 				state = INSENSITIVE
             orientation = VERTICAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-vhandle-disabled.png"
-            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
 
@@ -619,7 +619,7 @@ style "scrollbar" {
 				state = NORMAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-hhandle.png"
-            border = { 15, 22, 5, 5 } # = {Left, Right, Top, Bottom} 
+            border = { 15, 22, 5, 5 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
         image {
@@ -628,21 +628,21 @@ style "scrollbar" {
             orientation = HORIZONTAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-hhandle-hover.png"
-            border = { 15, 22, 5, 5 } # = {Left, Right, Top, Bottom} 
+            border = { 15, 22, 5, 5 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
-        
+
         image {
             function = SLIDER
 				state = INSENSITIVE
             orientation = HORIZONTAL
             recolorable = TRUE # what does that mean? it's not implemented!
             file = "Assets/scroll-hhandle-disabled.png"
-            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom} 
+            border = { 5, 5, 15, 22 } # = {Left, Right, Top, Bottom}
             stretch = TRUE # this stretches the image
         }
 
-    image 
+    image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -652,7 +652,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= UP
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -662,7 +662,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= UP
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -672,7 +672,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= UP
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -686,7 +686,7 @@ style "scrollbar" {
  ######### DOWN ############
 
 
-    image 
+    image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -696,7 +696,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= DOWN
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -706,7 +706,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= DOWN
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -716,7 +716,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= DOWN
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -729,7 +729,7 @@ style "scrollbar" {
 
 ############ RIGHT ################
 
-    image 
+    image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -739,7 +739,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= RIGHT
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -749,7 +749,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= RIGHT
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -759,7 +759,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= RIGHT
     }
- image 
+ image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -773,7 +773,7 @@ style "scrollbar" {
 ############### LEFT ###################
 
 
-    image 
+    image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -783,7 +783,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= LEFT
     }
-  image 
+  image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -793,7 +793,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= LEFT
     }
-  image 
+  image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -803,7 +803,7 @@ style "scrollbar" {
       stretch			= TRUE
       arrow_direction	= LEFT
     }
-  image 
+  image
     {
       function			= STEPPER
       recolorable		= TRUE
@@ -834,11 +834,11 @@ style "radiobutton"
 {
   GtkRadioButton::indicator_size = 19
 
-  
-  engine "pixmap" 
+
+  engine "pixmap"
     {
 	#This is the image used to draw an unchecked box.
-        image 
+        image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -848,7 +848,7 @@ style "radiobutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -858,7 +858,7 @@ style "radiobutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -868,7 +868,7 @@ style "radiobutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -879,7 +879,7 @@ style "radiobutton"
         }
 
 	#This is the image used to draw a selected (checked) box.
-        image 
+        image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -889,7 +889,7 @@ style "radiobutton"
             overlay_stretch = FALSE
         }
 
-  image 
+  image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -899,7 +899,7 @@ style "radiobutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -910,7 +910,7 @@ style "radiobutton"
         }
 
 
-     image 
+     image
 	{
             function        = OPTION
             recolorable     = TRUE
@@ -922,7 +922,7 @@ style "radiobutton"
 
 	#Use this image to draw the highlight when a line with a check box
 	#is moused over.
-	image 
+	image
 	{
           function        = FLAT_BOX
 
@@ -952,10 +952,10 @@ style "checkbutton"
 
   GtkCheckButton::indicator_size = 19
 
-  engine "pixmap" 
+  engine "pixmap"
     {
 	#This is the image used to draw an unchecked box.
-        image 
+        image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -965,7 +965,7 @@ style "checkbutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -975,7 +975,7 @@ style "checkbutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -985,7 +985,7 @@ style "checkbutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -996,7 +996,7 @@ style "checkbutton"
         }
 
 	#This is the image used to draw a selected (checked) box.
-        image 
+        image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -1006,7 +1006,7 @@ style "checkbutton"
             overlay_stretch = FALSE
         }
 
-  image 
+  image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -1016,7 +1016,7 @@ style "checkbutton"
             overlay_stretch = FALSE
         }
 
- image 
+ image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -1027,7 +1027,7 @@ style "checkbutton"
         }
 
 
-     image 
+     image
 	{
             function        = CHECK
             recolorable     = TRUE
@@ -1039,7 +1039,7 @@ style "checkbutton"
 
 	#Use this image to draw the highlight when a line with a check box
 	#is moused over.
-	image 
+	image
 	{
           function        = FLAT_BOX
 
@@ -1083,7 +1083,7 @@ style "menuitem"
   xthickness = 6
   ythickness = 4
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 0
   }
@@ -1101,7 +1101,7 @@ style "paned"
 {
   GtkPaned::handle-size = 8
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = lighter (@grey)
     border [PRELIGHT] = lighter (@grey)
@@ -1140,7 +1140,7 @@ style "menu"
   GtkMenu::vertical_padding = 0
   xthickness = 2
   ythickness = 2
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 2
   }
@@ -1150,7 +1150,7 @@ class "GtkMenu" style "menu"
 
 style "menu-separator"
 {
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = "#dddddd"
   }
@@ -1180,7 +1180,7 @@ style "menubar"
   ythickness = 5
   GtkMenuBar::shadow_type = GTK_SHADOW_NONE
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 0
   }
@@ -1194,7 +1194,7 @@ class "GtkMenuBar" style "menubar"
 style "toolbar-handlebox"
 {
   bg [NORMAL] = @toolbar_color
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 0
     border [NORMAL] = @toolbar_color
@@ -1228,7 +1228,7 @@ style "nautilus-pathbar-arrow-button" = "toolbar-button"
   bg [NORMAL] = mix(0.88, @toolbar_color, "white")
   xthickness = 2
   ythickness = 2
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = mix(0.88, @toolbar_color, "white")
     border [PRELIGHT] = mix(0.88, @toolbar_color, "white")
@@ -1249,8 +1249,8 @@ style "spinbutton" = "button"
 
   xthickness = 4
   ythickness = 4
-  
-  engine "meego-netbook"
+
+  engine "dawati"
   {
     border [NORMAL] = @grey
     border [PRELIGHT] = @green
@@ -1298,7 +1298,7 @@ style "notebook"
   ythickness = 4
   xthickness = 4
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 3
     border [ACTIVE] = lighter (@grey)
@@ -1310,7 +1310,7 @@ style "frame"
 {
 
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 2
     border [ACTIVE] = lighter (@grey)
@@ -1388,7 +1388,7 @@ style "combobox" = "button"
     }
 
   }
-  
+
 }
 widget_class "*Combo*"  style "combobox"
 
@@ -1402,7 +1402,7 @@ style "optionbox" = "combobox"
   fg [NORMAL] = @fg_color
   fg [PRELIGHT] = @fg_color
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = @grey
     border [PRELIGHT] = @green
@@ -1422,7 +1422,7 @@ widget "*.*nautilus-extra-view-widget" style : highest "nautilus_location"
 
 style "separator"
 {
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = "#dddddd"
     radius = 3
@@ -1433,7 +1433,7 @@ widget_class "*Separator*"  style "separator"
 
 style "toolbar-separator"
 {
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = "#DADCD9"
   }
@@ -1458,7 +1458,7 @@ style "statusbar"
   fg [NORMAL] = @fg_color
   fg [PRELIGHT] = @fg_color
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     radius = 3
     border [NORMAL] = @bg_color
@@ -1475,7 +1475,7 @@ style "tooltip"
   bg [NORMAL]          = @green
   fg [NORMAL]          = "#fff"
 
-  engine "meego-netbook"
+  engine "dawati"
   {
     border [NORMAL] = @green
   }
@@ -1536,7 +1536,7 @@ style "moblin-toolbar" = "toolbar"
   GtkToolbar::internal_padding = 10
 
 }
-widget "*MeeGoToolbar" style "moblin-toolbar"
+widget "*DawatiToolbar" style "moblin-toolbar"
 widget "*moblin-toolbar" style "moblin-toolbar"
 
 
@@ -1550,29 +1550,29 @@ style "moblin-toolbar-button"
 widget_class "*moblin-toolbar.*GtkButton*" style "moblin-toolbar-button"
 widget_class "*moblin-toolbar.*button*" style "moblin-toolbar-button"
 widget_class "*moblin-toolbar.*ToolItem*" style "moblin-toolbar-button"
-widget_class "*MeeGoToolbar.*GtkButton" style "moblin-toolbar-button"
-widget_class "*MeeGoToolbar.*button" style "moblin-toolbar-button"
-widget_class "*MeeGoToolbar.*ToolItem" style "moblin-toolbar-button"
+widget_class "*DawatiToolbar.*GtkButton" style "moblin-toolbar-button"
+widget_class "*DawatiToolbar.*button" style "moblin-toolbar-button"
+widget_class "*DawatiToolbar.*ToolItem" style "moblin-toolbar-button"
 
 
 style "moblin-close-button"
 {
- 
+
 }
 widget "*moblin-toolbar.*.moblin-close-button" style "moblin-close-button"
-widget "*MeeGoToolbar.*.MeeGoCloseButton" style "moblin-close-button"
+widget "*DawatiToolbar.*.DawatiCloseButton" style "moblin-close-button"
 
 style "moblin-settings-button" = "button"
 {
 
 }
 widget "*moblin-toolbar.*.moblin-settings-button" style "moblin-settings-button"
-widget "*MeeGoToolbar.*.MeeGoSettingsButton" style "moblin-settings-button"
+widget "*DawatiToolbar.*.DawatiSettingsButton" style "moblin-settings-button"
 
-# style 
+# style
 style "search-entry"
 {
-  
+
   base [INSENSITIVE] = "#f1f1f1"
   bg [NORMAL]          = "#f1f1f1"
   fg [NORMAL]          = "#f1f1f1"
@@ -1586,7 +1586,7 @@ widget "*.search-alignment.search-entry" style "search-entry"
 # height as the other items in the row
 style "EDateEditEntry"
 {
-  ythickness = 10 
+  ythickness = 10
 }
 widget_class "*.EDateEdit.GtkEntry" style "EDateEditEntry"
 

@@ -1,8 +1,8 @@
 [X-GNOME-Metatheme]
-Name=Netbook
+Name=Dawati
 Type=X-GNOME-Metatheme
 Comment=Theme for Netbooks
 Encoding=UTF-8
-GtkTheme=Netbook
-MetacityTheme=Netbook
-IconTheme=moblin
+GtkTheme=Dawati
+MetacityTheme=Dawati
+IconTheme=dawati

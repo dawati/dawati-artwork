@@ -1,6 +1,8 @@
-THEME_DIR = $(datadir)/themes/Netbook
+SUBDIRS = engine
 
-themedir = $(datadir)/themes/Netbook
+THEME_DIR = $(datadir)/themes/Dawati
+
+themedir = $(THEME_DIR)
 dist_theme_DATA = index.theme
 
 gtkthemedir = $(THEME_DIR)/gtk-2.0

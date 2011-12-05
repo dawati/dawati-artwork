@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <metacity_theme>
 	<info>
-		<name>Netbook</name>
+		<name>Dawati</name>
 		<author>Hylke Bons, Nick Richards</author>
 		<copyright>Intel, 2011</copyright>
 		<date>September 16, 2011</date>
 		<description>The Netbook Window Theme</description>
 	</info>
 
-	<frame_geometry name="normal" rounded_top_left="false" rounded_top_right="false" title_scale="medium"> 
+	<frame_geometry name="normal" rounded_top_left="false" rounded_top_right="false" title_scale="medium">
 		<distance name="left_width" value="1"/>
 		<distance name="right_width" value="1"/>
 		<distance name="bottom_height" value="1"/>
@@ -21,8 +21,8 @@
 		<border name="button_border" left="0" right="1" top="1" bottom="0"/>
 	</frame_geometry>
 	<frame_geometry name="maximized" title_scale="medium" parent="normal"/>
-	<frame_geometry name="utility" title_scale="medium" parent="normal"/> 
-	<frame_geometry name="border" has_title="false" parent="normal"/> 
+	<frame_geometry name="utility" title_scale="medium" parent="normal"/>
+	<frame_geometry name="border" has_title="false" parent="normal"/>
 
 	<draw_ops name="bg_titlebar_focused">
 		<image filename="background.png" x="1" y="1" width="2560" height="76" />
@@ -39,25 +39,25 @@
 		<line color="#92918a" x1="1" y1="height-1" x2="width-2" y2="height-1" dash_off_length="0" dash_on_length="3"/>
 	</draw_ops>
 
-	<draw_ops name="title_all"> 
+	<draw_ops name="title_all">
 		<title x="6" y="(((height - title_height -1) / 2) `max` 0) + 2" color="#3b3b3a"/>
 	</draw_ops>
 
-	<draw_ops name="title_unfocused"> 
+	<draw_ops name="title_unfocused">
 		<title x="6" y="(((height - title_height -1) / 2) `max` 0) + 2" color="#7b7b7a"/>
 	</draw_ops>
 
-	<draw_ops name="titlebar_normal_focused"> 
+	<draw_ops name="titlebar_normal_focused">
 		<include name="bg_titlebar_focused"/>
 		<include name="lines_border_focused"/>
 	</draw_ops>
 
-	<draw_ops name="normal_focused"> 
+	<draw_ops name="normal_focused">
 		<include name="bg_bottom_focused"/>
 		<include name="lines_border_focused"/>
 	</draw_ops>
 
-	<draw_ops name="button_close_normal"> 
+	<draw_ops name="button_close_normal">
 		<image filename="button_close.png"
 				alpha="1"
 				x="0"
@@ -66,7 +66,7 @@
 				height="34"/>
 	</draw_ops>
 
-	<draw_ops name="button_close_prelight"> 
+	<draw_ops name="button_close_prelight">
 		<image filename="button_close_prelight.png"
 				alpha="1"
 				x="0"
@@ -75,7 +75,7 @@
 				height="34"/>
 	</draw_ops>
 
-	<draw_ops name="button_close_pressed"> 
+	<draw_ops name="button_close_pressed">
 		<image filename="button_close_pressed.png"
 				alpha="1"
 				x="0"
@@ -84,9 +84,9 @@
 				height="34"/>
 	</draw_ops>
 
-	<draw_ops name="none"/> 
+	<draw_ops name="none"/>
 
-	<frame_style name="normal_focused" geometry="normal"> 
+	<frame_style name="normal_focused" geometry="normal">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_all"/>
@@ -104,7 +104,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="normal_unfocused" geometry="normal"> 
+	<frame_style name="normal_unfocused" geometry="normal">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_unfocused"/>
@@ -122,7 +122,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="maximized_focused" geometry="maximized"> 
+	<frame_style name="maximized_focused" geometry="maximized">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_all"/>
@@ -140,7 +140,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="maximized_unfocused" geometry="maximized"> 
+	<frame_style name="maximized_unfocused" geometry="maximized">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_unfocused"/>
@@ -158,7 +158,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="border_focused" geometry="border"> 
+	<frame_style name="border_focused" geometry="border">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<button function="close" state="normal" draw_ops="button_close_normal"/>
 		<button function="close" state="prelight" draw_ops="button_close_prelight"/>
@@ -174,7 +174,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="border_unfocused" geometry="border"> 
+	<frame_style name="border_unfocused" geometry="border">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<button function="close" state="normal" draw_ops="button_close_normal"/>
 		<button function="close" state="prelight" draw_ops="button_close_prelight"/>
@@ -190,7 +190,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="utility_focused" geometry="utility"> 
+	<frame_style name="utility_focused" geometry="utility">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_all"/>
@@ -208,7 +208,7 @@
 		<button function="menu" state="prelight" draw_ops="none"/>
 	</frame_style>
 
-	<frame_style name="utility_unfocused" geometry="utility"> 
+	<frame_style name="utility_unfocused" geometry="utility">
 		<piece position="entire_background" draw_ops="normal_focused"/>
 		<piece position="titlebar" draw_ops="titlebar_normal_focused"/>
 		<piece position="title" draw_ops="title_unfocused"/>
