@@ -25,7 +25,9 @@ AM_MAINTAINER_MODE
 
 PKG_PROG_PKG_CONFIG()
 
-PKG_CHECK_MODULES(GTK, gtk+-2.0 >= 2.8.0,, AC_MSG_ERROR([GTK+-2.8 is required to compile moblin-netbook-engine]))
+PKG_CHECK_MODULES(GTK,
+		  [gtk+-2.0 >= 2.8.0],,
+		  [AC_MSG_ERROR([GTK+ 2.8 required for the gtk2 engine])])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
 
