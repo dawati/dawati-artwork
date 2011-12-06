@@ -7,6 +7,7 @@ AC_CONFIG_SRCDIR([sound/index.theme])
 AM_CONFIG_HEADER(config.h)
 
 AM_INIT_AUTOMAKE([1.11 foreign no-dist-gzip dist-xz])
+AM_SILENT_RULES([yes])
 
 AC_PROG_CC
 AM_PROG_CC_STDC
