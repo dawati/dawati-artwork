@@ -24,4 +24,11 @@
 		<filename>@datadir@/backgrounds/dawati/system-background.png</filename>
 		<options>zoom</options>
 	</wallpaper>
+	<wallpaper deleted="false">
+		<!-- TRANSLATORS: This is the name of this background picture: http://git.gnome.org/browse/gnome-backgrounds/plain/backgrounds/BlueMarbleWest.jpg -
+		You might want to translate it into the equivalent words of your language  -->
+		<_name>Henry</_name>
+		<filename>@datadir@/backgrounds/gnome/henry.jpg</filename>
+		<options>zoom</options>
+	</wallpaper>
 </wallpapers>
