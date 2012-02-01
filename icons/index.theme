@@ -1,0 +1,26 @@
+[Icon Theme]
+Name=Dawati
+Comment=Dawati Icon Theme
+
+Inherits=gnome
+Directories=24x24/actions,48x48/places,48x48/devices,48x48/actions,
+
+[24x24/actions]
+Size=24
+Context=actions
+Type=Fixed
+
+[48x48/places]
+Size=48
+Context=places
+Type=Scalable
+
+[48x48/devices]
+Size=48
+Context=devices
+Type=Scalable
+
+[48x48/actions]
+Size=48
+Context=actions
+Type=Scalable

@@ -40,6 +40,9 @@ AC_CONFIG_FILES([
   Makefile
   backgrounds/Makefile
   cursor/Makefile
+  icons/Makefile
+  icons/24x24/Makefile
+  icons/48x48/Makefile
   sound/Makefile
   sound/stereo/Makefile
   ui/Makefile
