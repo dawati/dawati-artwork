@@ -1,6 +1,6 @@
 AC_PREREQ([2.63])
 AC_INIT([dawati-artwork],
-        [0.90.5],
+        [0.90.6],
         [http://www.dawati.com])
 
 AC_CONFIG_SRCDIR([sound/index.theme])
