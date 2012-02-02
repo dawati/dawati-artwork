@@ -3,11 +3,16 @@ Name=Dawati
 Comment=Dawati Icon Theme
 
 Inherits=gnome
-Directories=24x24/actions,48x48/places,48x48/devices,48x48/actions,
+Directories=24x24/actions,24x24/status,48x48/places,48x48/devices,48x48/actions,
 
 [24x24/actions]
 Size=24
 Context=actions
+Type=Fixed
+
+[24x24/status]
+Size=24
+Context=status
 Type=Fixed
 
 [48x48/places]
