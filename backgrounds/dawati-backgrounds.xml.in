@@ -15,6 +15,11 @@
 		<options>zoom</options>
 	</wallpaper>
 	<wallpaper deleted="false">
+		<_name>Henry</_name>
+		<filename>@datadir@/backgrounds/dawati/henry.jpg</filename>
+		<options>zoom</options>
+	</wallpaper>
+	<wallpaper deleted="false">
 		<_name>Linus</_name>
 		<filename>@datadir@/backgrounds/dawati/linus.jpg</filename>
 		<options>zoom</options>
